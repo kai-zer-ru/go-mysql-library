@@ -4,5 +4,5 @@ go 1.13
 
 require (
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/kaizer666/gologger v1.1.4
+	github.com/kaizer666/gologger v1.0.1
 )
