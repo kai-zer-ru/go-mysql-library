@@ -1,0 +1,26 @@
+stages:
+  - test
+  - install
+
+before_script:
+  - export GOSUMDB=off
+
+unit_tests:
+  stage: test
+  script:
+    - make test
+
+race_detector:
+  stage: test
+  script:
+    - make race
+
+lint_code:
+  stage: test
+  script:
+    - make lint
+
+install:
+  stage: install
+  script:
+    - make
