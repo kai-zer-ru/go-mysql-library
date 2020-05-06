@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"gitlab.sarafann.com/kaizer/gologger"
+	"github.com/kaizer666/gologger"
 )
 
 func init() {

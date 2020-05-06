@@ -10,7 +10,7 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql" // mysql
-	"gitlab.sarafann.com/kaizer/gologger"
+	"github.com/kaizer666/gologger"
 )
 
 type MySQL struct {

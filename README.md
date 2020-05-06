@@ -1,4 +1,4 @@
 # go-mysql-library
 
 ## Install 
-`go get gitlab.sarafann.com/kaizer/go-mysql-library`
+`go get github.com/kaizer666/go-mysql-library`
